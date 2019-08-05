@@ -1,0 +1,78 @@
+body {
+    margin-top: 15%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.ticket {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
+background-color: #ffffff;
+border-radius: 6px;
+width: 300px;
+height:484px;
+margin: 10px;
+font-family: arial;
+}
+.ticket__img{
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+
+}
+
+.ticket__title{
+    padding-top: 10px;
+    color: #145D92;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.ticket__desc{
+font-family: 'Muli', sans-serif;
+}
+
+.ticket__price{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.ticket__priceinfo{
+    font-size: 12px;
+    font-family: 'Muli', sans-serif;
+    color: #333333;
+}
+
+.ticket__date, .ticket__time{
+color: #ababab;
+font-size: 14px;
+padding: 5px;
+font-family: 'Muli', sans-serif;
+}
+
+.ticket:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05);
+}
+.ticket__button {
+border-radius: 6px;
+margin-left: auto;
+margin-right: auto;
+width:150px;
+height: 40px;
+padding: 5px;
+background-color: #145D92;
+color: white;
+font-family: 'Muli', sans-serif;
+text-align: center;
+stroke: #979797;
+float:right;
+cursor: default;
+font-size: 14px;
+}
+
+.ticket__button:hover {
+opacity: 0.7;
+}
+
+.container {
+padding: 2px 16px;
+}   
