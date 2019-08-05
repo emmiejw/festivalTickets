@@ -5,6 +5,8 @@ This is a app created for purchasing festival tickets using Laravel for the back
 <h3>Desktop View </h3>
 <img src="public/images/desktop1.png">
 <img src="public/images/desktop2.png">
+<img src="public/images/desktop3.png">
+
 <br>
 <h3>Desktop View </h3>
 <img src="public/images/mobile1.png">
